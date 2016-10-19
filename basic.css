@@ -1,0 +1,85 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+	text-align: center;
+}
+
+
+#bike_configurator{
+	margin: 0 auto;
+	padding: 10px;
+    width: 850px;
+    height: 600px;
+    border-style: dotted;
+}
+
+#bike_picture_area {
+	margin: 1px;
+	float: left;
+    width: 490px;
+    height: 598px;
+    border-right-style: dotted;
+}
+
+#bike_config_area {
+	margin: 1px;
+	float: left;
+    width: 353px;
+    height: 598px;
+}
+
+#bike_picture {
+	width: 418px;
+    height: 285px;
+	display: block;
+	margin: auto;
+
+}
+
+/* Tab layout */
+#tabs {
+	font-size: 14px;
+	border-style: solid;
+}
+
+
+.ui-widget-header {
+    font-weight: bold;
+} 
+
+/* Tab content */
+.ui-tabs-panel {
+	margin-top: 30px;
+	margin-left: 5px;
+}
+   
+
+ul.tabs{
+	list-style: none;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}    
+
+
+a.tab_link{ 
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	margin: 2px;
+	width: 72px;
+	text-align: center;
+}
+
+.tab_selected {
+	background: blue;
+}
+	
+.tab_init{
+	background: grey;
+}
